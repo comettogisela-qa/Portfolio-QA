@@ -1,0 +1,352 @@
+html{
+
+    scroll-behavior:smooth;
+
+}
+*{
+
+    margin:0;
+
+    padding:0;
+
+    box-sizing:border-box;
+
+}
+
+body{
+
+    font-family:Arial, Helvetica, sans-serif;
+
+    background:#0f172a;
+
+    color:white;
+
+}
+
+nav{
+
+    position:fixed;
+
+width:100%;
+
+top:0;
+
+left:0;
+
+background:#0f172a;
+
+z-index:1000;
+}
+
+.logo{
+
+    font-size:28px;
+
+    font-weight:bold;
+
+    color:#60a5fa;
+
+}
+
+nav ul{
+
+    display:flex;
+
+    list-style:none;
+
+    gap:40px;
+
+}
+
+nav a{
+
+    color:white;
+
+    text-decoration:none;
+
+}
+
+.hero{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    min-height:90vh;
+
+    padding:0 10%;
+}
+
+.hero-texto{
+
+     max-width:600px;
+
+}
+
+.saludo{
+
+    color:#60a5fa;
+
+    margin-bottom:15px;
+
+}
+
+h1{
+
+    font-size:64px;
+
+    margin:10px 0;
+
+
+}
+
+h2{
+
+    color:#94a3b8;
+
+    margin-bottom:25px;
+
+}
+
+.descripcion{
+
+    font-size:30px;
+
+    font-weight:bold;
+
+    margin-bottom:25px;
+
+}
+
+.descripcion2{
+
+    color:#cbd5e1;
+
+    line-height:35px;
+
+    margin-bottom:40px;
+
+}
+
+.boton{
+
+    background:#2563eb;
+
+    color:white;
+
+    text-decoration:none;
+
+    padding:15px 30px;
+
+    border-radius:8px;
+
+}
+
+.hero-ilustracion{
+
+    width:420px;
+
+    height:420px;
+
+    border-radius:25px;
+
+    border:2px dashed #4aa8ff;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:#4aa8ff;
+
+    font-size:24px;
+}
+.como-trabajo{
+
+    padding:100px 70px;
+
+    background:#111c33;
+
+}
+
+.como-trabajo h2{
+
+    text-align:center;
+
+    font-size:42px;
+
+    color:white;
+
+    margin-bottom:20px;
+
+}
+
+.intro{
+
+    text-align:center;
+
+    color:#cbd5e1;
+
+    max-width:700px;
+
+    margin:0 auto 60px;
+
+    line-height:30px;
+
+}
+
+.pasos{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:30px;
+
+}
+
+.paso{
+
+    background:#1e293b;
+
+    padding:30px;
+
+    border-radius:15px;
+
+    transition:.3s;
+
+}
+
+.paso:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.paso h3{
+
+    margin-bottom:20px;
+
+    color:#60a5fa;
+
+}
+
+.paso p{
+
+    color:#cbd5e1;
+
+    line-height:28px;
+
+}
+.projects{
+
+    padding:100px 10%;
+
+}
+
+.projects h2{
+
+    text-align:center;
+
+    font-size:40px;
+
+    margin-bottom:20px;
+
+}
+
+.projects-text{
+
+    text-align:center;
+
+    max-width:800px;
+
+    margin:auto;
+
+    color:#b8c1d1;
+
+    margin-bottom:60px;
+
+}
+
+.cards{
+
+    display:flex;
+
+    justify-content:center;
+
+}
+.card{
+
+    background:#1d2740;
+
+    width:400px;
+
+    border-radius:20px;
+
+    padding:30px;
+
+}
+.card h3{
+
+    color:#4aa8ff;
+
+    margin-bottom:10px;
+
+}
+
+.card h4{
+
+    font-size:28px;
+
+    margin-bottom:20px;
+
+}
+
+.card p{
+
+    line-height:1.8;
+
+    color:#c7d1df;
+
+}
+.card button{
+
+    margin-top:30px;
+
+    background:#3a6ff7;
+
+    color:white;
+
+    border:none;
+
+    padding:15px 30px;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+}
+.tags{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin:15px 0;
+}
+
+.tags span{
+
+    background:#28405f;
+
+    color:#6db7ff;
+
+    padding:6px 12px;
+
+    border-radius:20px;
+
+    font-size:13px;
+
+    font-weight:bold;
+}
