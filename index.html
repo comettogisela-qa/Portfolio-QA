@@ -9,273 +9,765 @@
     <title>Portfolio QA | Gisela Cometto</title>
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
 </head>
 
 <body>
 
-    <!-- ========================= -->
-    <!-- NAVEGACIÓN -->
-    <!-- ========================= -->
+<!-- =====================================================
+     NAVBAR
+===================================================== -->
 
-    <nav>
+<nav>
 
-        <div class="logo">
-            GC
+    <a href="#inicio" class="logo">
+    <img src="Imagenes/logo/logo-gc.png"
+         alt="GC QA Logo">
+         <span class="logo-divider"></span>
+         <span class="logo-text">QA ENGINEER</span>
+</a>
+
+    <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#trabajo">Cómo trabajo</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+    </ul>
+
+</nav>
+
+<!-- =====================================================
+     HERO
+===================================================== -->
+
+<header id="inicio" class="hero">
+
+    <div class="hero-texto">
+
+        <p class="saludo">
+            Hola, soy
+        </p>
+
+        <h1>
+            Gisela Cometto
+        </h1>
+
+        <h2>
+            QA Engineer • Functional Analyst • Automation QA
+        </h2>
+
+        <p class="descripcion">
+
+            Encuentro escenarios que otros no ven
+            <br>
+            y convierto procesos de negocio
+            <br>
+            en software confiable.
+
+        </p>
+
+        <div class="skills-hero">
+
+            <span>SAP Hybris</span>
+            <span>Playwright</span>
+            <span>API Testing</span>
+            <span>Functional Analysis</span>
+            <span>E2E Testing</span>
+            <span>Jira</span>
+            <span>Confluence</span>
+            <span>Swagger</span>
+            <span>Postman</span>
+            <span>Jenkins</span>
+            <span>BrowserStack</span>
+
         </div>
 
-        <ul>
+        <a href="#proyectos" class="boton">
 
-            <li><a href="#inicio">Inicio</a></li>
+            Conocé mi trabajo →
 
-            <li><a href="#trabajo">Mi forma de trabajar</a></li>
+        </a>
 
-            <li><a href="#proyectos">Casos de estudio</a></li>
+    </div>
 
-            <li><a href="#herramientas">Herramientas</a></li>
+    <div class="hero-ilustracion">
 
-            <li><a href="#contacto">Contacto</a></li>
+        <img
+            src="Imagenes/hero/qa-engineer.png"
+            alt="QA Engineer Illustration">
 
-        </ul>
+    </div>
 
-    </nav>
+</header>
 
-    <!-- ========================= -->
-    <!-- HERO -->
-    <!-- ========================= -->
+<!-- =====================================================
+     CÓMO TRABAJO
+===================================================== -->
 
-    <header id="inicio" class="hero">
+<section id="trabajo" class="como-trabajo">
 
-        <div class="hero-texto">
+    <h2>¿Cómo trabajo como QA?</h2>
 
-            <p class="saludo">
-                Hola, soy
-            </p>
+    <p class="intro">
 
-            <h1>
-                Gisela Cometto
-            </h1>
+        Mi trabajo comienza entendiendo el negocio.
+        La calidad no se valida al final:
+        se construye desde el análisis hasta la entrega.
 
-            <h2>
-                QA Engineer • Functional Analyst • E-commerce QA
-            </h2>
+    </p>
 
-            <p class="descripcion">
+    <div class="pasos">
 
-                La calidad no comienza cuando se ejecuta un caso de prueba. Comienza cuando entendemos el negocio.
+        <article class="paso">
 
-            </p>
+            <h3>📄 Entiendo el negocio</h3>
 
-            <p class="descripcion2">
+            <p>
 
-                ✔ Analizo procesos de negocio.
-
-                ✔ Diseño estrategias de prueba.
-
-                ✔ Detecto escenarios críticos.
-
-                ✔ Automatizo recorridos E2E con Playwright.
-
-                ✔ Presento demos funcionales.
+                Antes de probar funcionalidades, analizo procesos,
+                reglas comerciales y necesidades del cliente para
+                comprender el contexto completo.
 
             </p>
 
-            <a href="#proyectos" class="boton">
+        </article>
 
-                Conocé mi trabajo →
+        <article class="paso">
+
+            <h3>🔍 Busco riesgos</h3>
+
+            <p>
+
+                Identifico escenarios críticos, casos límite
+                y posibles impactos antes de comenzar
+                la ejecución de pruebas.
+
+            </p>
+
+        </article>
+
+        <article class="paso">
+
+            <h3>🧪 Diseño la estrategia</h3>
+
+            <p>
+
+                Defino casos funcionales, Smoke,
+                Regresión y recorridos End-to-End
+                según los objetivos del Sprint.
+
+            </p>
+
+        </article>
+
+        <article class="paso">
+
+            <h3>🤖 Automatizo donde aporta valor</h3>
+
+            <p>
+
+                Automatizo recorridos críticos utilizando
+                Playwright para acelerar regresiones
+                y mejorar la confiabilidad.
+
+            </p>
+
+        </article>
+
+        <article class="paso">
+
+            <h3>🤝 Trabajo en equipo</h3>
+
+            <p>
+
+                Colaboro diariamente con Developers,
+                Product Owners, Analistas Funcionales
+                y clientes.
+
+            </p>
+
+        </article>
+
+        <article class="paso">
+
+            <h3>🎤 Valido antes de liberar</h3>
+
+            <p>
+
+                Verifico que cada entrega cumpla
+                con las reglas de negocio antes
+                de llegar a producción.
+
+            </p>
+
+        </article>
+
+    </div>
+
+</section>
+
+<!-- =====================================================
+     PROYECTOS
+===================================================== -->
+
+<section id="proyectos" class="projects">
+
+    <h2>Mis proyectos</h2>
+
+    <p class="projects-text">
+
+        Casos reales donde participé como QA Functional Analyst
+        y Automation QA, colaborando con equipos de desarrollo,
+        negocio y clientes para construir productos confiables.
+
+    </p>
+
+    <h3 class="featured-title">
+
+        Proyecto destacado
+
+    </h3>
+
+    <article class="card">
+
+        <img 
+            src="Imagenes/molinos/b2bhomepage.png"
+            alt="Molinos Río de la Plata"
+            class="project-image img-molinos">
+
+        <div class="card-content">
+
+            <div class="tags">
+
+                <span>SAP Hybris</span>
+                <span>B2B</span>
+                <span>B2C</span>
+                <span>Playwright</span>
+                <span>Functional QA</span>
+
+            </div>
+
+            <h3>Molinos Río de la Plata</h3>
+
+            <h4>SAP Hybris Commerce</h4>
+
+            <p>
+
+Participé en el análisis funcional,
+validación y automatización de una
+plataforma SAP Hybris para canales
+B2B y B2C.
+
+Trabajé desde el entendimiento de las
+reglas de negocio hasta la presentación
+de funcionalidades al cliente en cada Sprint.
+
+</p>
+<div class="project-highlight">
+
+    💡 Especial foco en promociones,
+    factoreo, configuraciones B2B,
+    warehouses y procesos End-to-End.
+
+</div>
+
+            <div class="project-skills">
+
+    <span>Functional Analysis</span>
+
+    <span>Manual Testing</span>
+
+    <span>API Testing</span>
+
+    <span>Playwright</span>
+
+    <span>Customer Demos</span>
+
+</div>
+
+            <a href="#case-molinos" class="boton">
+
+                Explorar Caso de Studio →
 
             </a>
 
         </div>
 
-        <div class="hero-ilustracion">
+    </article>
 
-            <!-- Acá luego pondremos una ilustración -->
+  <h3 class="featured-title">Otros proyectos destacados</h3>
 
-            Ilustración QA
+<div class="coming-projects">
+
+    <!-- FID -->
+    <article class="mini-card">
+
+        <img class="img-fidseguros" src="Imagenes/fid-seguros/fid.png" alt="FID Seguros">
+
+        <div class="mini-content">
+
+            <h4>FID Seguros</h4>
+
+            <p class="mini-subtitle">
+                OutSystems Platform
+            </p>
+
+            <p>
+                Testing funcional y homologaciones sobre plataforma de seguros.
+            </p>
+
+            <div class="mini-tags">
+                <span>OutSystems</span>
+                <span>SQL Server</span>
+                <span>Insurance</span>
+                
+            </div>
+
+            <small>Case Study próximamente</small>
 
         </div>
 
-    </header>
+    </article>
 
-    <!-- ========================= -->
-    <!-- MI FORMA DE TRABAJAR -->
-    <!-- ========================= -->
+    <!-- TOYOTA -->
 
-    <section id="trabajo" class="como-trabajo">
+    <article class="mini-card">
 
-        <h2>Mi forma de trabajar</h2>
+        <img class="img-toyota" src="Imagenes/toyota/toyota.jpg" alt="Toyota">
 
-        <p class="intro">
+        <div class="mini-content">
 
-            Para mí, la calidad comienza mucho antes de ejecutar un caso de prueba.
+            <h4>Toyota Chile</h4>
+
+            <p class="mini-subtitle">
+                SAP Commerce Cloud (Hybris)
+            </p>
+
+            <p>
+                Functional QA sobre plataforma eCommerce B2B de Postventa y Repuestos, validando procesos comerciales, integraciones y gestión de contenidos.
+            </p>
+
+            <div class="mini-tags">
+
+                <span>SAP Commerce</span>
+                <span>Smart Edit</span>
+                <span>Backoffice</span>
+                <span>HAC</span>
+                <span>Solr</span>
+                <span>Integration Suite</span>
+
+            </div>
+
+            <small>Case Study próximamente</small>
+
+        </div>
+
+    </article>
+
+    <!-- YANEKEN -->
+
+    <article class="mini-card">
+
+        <img class="img-yaneken" src="Imagenes/yaneken/aufbau.png" alt="Yaneken">
+
+        <div class="mini-content">
+
+            <h4>Yaneken</h4>
+
+            <p class="mini-subtitle">
+                SAP Hybris Commerce
+            </p>
+
+            <p>
+                Automatización y testing funcional sobre múltiples eCommerce del grupo.
+            </p>
+
+            <div class="mini-tags">
+
+                <span>SAP Hybris</span>
+                <span>Playwright</span>
+                <span>E-commerce</span>
+                <span>B2C</span>
+
+            </div>
+
+            <small>Case Study próximamente</small>
+
+        </div>
+
+    </article>
+
+    <!-- PROMESA -->
+
+    <article class="mini-card">
+
+        <img class="img-promesa" src="Imagenes/promesa/promesa.png" alt="Promesa">
+
+        <div class="mini-content">
+
+            <h4>Promesa</h4>
+
+            <p class="mini-subtitle">
+                SAP Hybris Commerce
+            </p>
+
+            <p>
+                Automatización End-to-End y validación funcional del eCommerce.
+            </p>
+
+            <div class="mini-tags">
+
+                <span>SAP Commerce</span>
+                <span>Playwright</span>
+                <span>E-commerce</span>
+
+            </div>
+
+            <small>Case Study próximamente</small>
+
+        </div>
+
+    </article>
+
+</div>
+
+</section>
+<!-- =====================================================
+     CASE STUDY
+===================================================== -->
+
+<section id="case-molinos" class="case-study">
+
+    <div class="case-header">
+
+        <p class="case-label">
+            CASO DE ESTUDIO
+        </p>
+
+        <h2>
+            Molinos Río de la Plata
+        </h2>
+
+        <p class="case-subtitle">
+
+            QA Functional Analyst · SAP Hybris Commerce · B2B & B2C
 
         </p>
 
-        <div class="pasos">
+    </div>
 
-            <div class="paso">
+    <!-- CONTEXTO -->
 
-                <h3>📄 Comprender</h3>
+    <div class="case-block">
 
-                <p>Analizo el requerimiento y entiendo qué necesita el negocio.</p>
-
-            </div>
-
-            <div class="paso">
-
-                <h3>🔍 Explorar</h3>
-
-                <p>Busco escenarios que otros no ven y evalúo riesgos.</p>
-
-            </div>
-
-            <div class="paso">
-
-                <h3>🧪 Validar</h3>
-
-                <p>Ejecuto pruebas funcionales, smoke, regresión y recorridos End-to-End.</p>
-
-            </div>
-
-            <div class="paso">
-
-                <h3>🤖 Automatizar</h3>
-
-                <p>Automatizo los flujos críticos utilizando Playwright.</p>
-
-            </div>
-
-            <div class="paso">
-
-                <h3>🤝 Colaborar</h3>
-
-                <p>Trabajo junto a Developers, Product Owners, Analistas Funcionales y clientes.</p>
-
-            </div>
-
-            <div class="paso">
-
-                <h3>🎤 Compartir</h3>
-
-                <p>Presento demos funcionales mostrando el valor entregado en cada Sprint.</p>
-
-            </div>
-
-        </div>
-
-    </section>
-
-    <!-- ========================= -->
-    <!-- CASOS DE ESTUDIO -->
-    <!-- ========================= -->
-
-    <section id="proyectos" class="projects">
-
-        <h2>Casos de estudio</h2>
-
-        <p class="projects-text">
-
-            Estos proyectos representan mi experiencia trabajando en e-commerce,
-            seguros, automatización y análisis funcional.
-
-        </p>
-
-        <div class="cards">
-
-            <!-- Tarjeta Molinos -->
-
-            <div class="card">
-
-                <img src="imagenes/molinos/home-b2b.png"
-                    alt="Molinos"
-                    class="project-image">
-
-                <div class="tags">
-
-                    <span>SAP Hybris</span>
-
-                    <span>B2B</span>
-
-                    <span>B2C</span>
-
-                    <span>Playwright</span>
-
-                </div>
-
-                <h3>Molinos Río de la Plata</h3>
-
-                <h4>SAP Hybris Commerce</h4>
-
-                <p>
-
-                    Participé en la validación funcional y automatización de dos plataformas e-commerce (B2B y B2C), colaborando desde la planificación hasta la demo final al cliente.
-
-                </p>
-
-                <ul>
-
-                    <li>✔ Functional Analysis</li>
-
-                    <li>✔ Manual Testing</li>
-
-                    <li>✔ API Testing</li>
-
-                    <li>✔ Playwright</li>
-
-                    <li>✔ Customer Demos</li>
-
-                </ul>
-
-                <a href="molinos.html" class="boton-proyecto">
-
-                    Ver caso de estudio →
-
-                </a>
-
-            </div>
-
-        </div>
-
-    </section>
-
-    <!-- ========================= -->
-    <!-- HERRAMIENTAS -->
-    <!-- ========================= -->
-
-    <section id="herramientas">
-
-        <h2>Herramientas</h2>
+        <h3>📌 Contexto</h3>
 
         <p>
 
-            Jira    Confluence    Jenkins    Swagger
+            Participé como QA Functional Analyst en una plataforma e-commerce
+            desarrollada sobre SAP Hybris para clientes B2B y B2C.
 
-            Playwright   Kibana   BrowserStack
-
-            SAP Hybris   Azure DevOps
+            Mi trabajo consistía en acompañar cada Sprint desde el análisis
+            funcional hasta la validación final y la presentación de la entrega
+            al cliente.
 
         </p>
-
-    </section>
-
-    <!-- ========================= -->
-    <!-- CONTACTO -->
-    <!-- ========================= -->
-
-    <section id="contacto">
-
-        <h2>Contacto</h2>
 
         <p>
 
-            Acá irá tu foto, LinkedIn, GitHub y formas de contacto.
+            Mientras que el canal B2C representaba un e-commerce tradicional,
+            el canal B2B incorporaba reglas comerciales mucho más complejas.
 
         </p>
 
-    </section>
+        <ul>
 
-    <script src="script.js"></script>
+            <li>Múltiples B2B Units.</li>
+
+            <li>Configuraciones por cliente.</li>
+
+            <li>Factoreo.</li>
+
+            <li>Descuentos por zona.</li>
+
+            <li>Múltiples warehouses.</li>
+
+            <li>Diferentes direcciones de entrega.</li>
+
+        </ul>
+
+    </div>
+
+    <!-- DESAFÍO -->
+
+    <div class="case-block">
+
+        <h3>⚙️ El desafío</h3>
+
+        <p>
+
+            Cada nueva funcionalidad debía respetar reglas de negocio muy
+            específicas que impactaban directamente en el proceso de compra.
+
+            Un pequeño cambio podía modificar promociones, descuentos,
+            disponibilidad de productos o condiciones comerciales.
+
+        </p>
+
+    </div>
+
+    <!-- APORTE -->
+
+    <div class="case-block">
+
+        <h3>💙 ¿Cómo aporté valor?</h3>
+
+        <h4>🧩 Comprensión del negocio</h4>
+
+        <p>
+
+            Analicé requerimientos funcionales y reglas comerciales para
+            comprender el impacto de cada desarrollo antes de comenzar las
+            pruebas.
+
+        </p>
+
+        <h4>🔍 Calidad funcional</h4>
+
+        <p>
+
+            Diseñé y ejecuté escenarios funcionales cubriendo promociones,
+            descuentos, configuraciones B2B, warehouses y recorridos completos
+            de compra.
+
+        </p>
+
+        <h4>🤖 Automatización</h4>
+
+        <p>
+
+            Implementé pruebas End-to-End con Playwright para automatizar los
+            recorridos más críticos y agilizar las regresiones.
+
+        </p>
+
+        <h4>🤝 Trabajo colaborativo</h4>
+
+        <p>
+
+            Participé en Sprint Planning, refinamientos, validaciones
+            funcionales y demos junto a Product Owners, Developers y clientes.
+
+        </p>
+
+    </div>
+
+    <!-- CASO COMPLEJO -->
+
+    <div class="case-block">
+
+        <h3>🔎 Caso complejo</h3>
+
+        <p>
+
+            Una de las funcionalidades más desafiantes fue el proceso de
+            factoreo, que involucraba múltiples reglas comerciales y distintos
+            escenarios según el perfil del cliente.
+
+            Fue necesario validar combinaciones de configuraciones para asegurar
+            que todo el flujo respondiera correctamente antes de liberar la
+            funcionalidad.
+
+        </p>
+
+    </div>
+
+    <!-- BUGS -->
+
+    <div class="case-block">
+
+        <h3>🐞 Bugs detectados</h3>
+
+        <ul>
+
+            <li>✔ Descuentos aplicados incorrectamente.</li>
+
+            <li>✔ Promociones incompatibles.</li>
+
+            <li>✔ Configuraciones B2B inconsistentes.</li>
+
+            <li>✔ Reglas de factoreo incorrectas.</li>
+
+            <li>✔ Errores de cálculo en el carrito.</li>
+
+        </ul>
+
+        <p>
+
+            Estas incidencias fueron detectadas durante las validaciones y
+            corregidas antes de llegar a producción.
+
+        </p>
+
+    </div>
+
+    <!-- DEMOS -->
+
+    <div class="case-block">
+
+        <h3>🎤 Demos funcionales</h3>
+
+        <p>
+
+            Al finalizar cada Sprint, presentaba las nuevas funcionalidades al cliente mediante demos funcionales. Explicaba el comportamiento de la aplicación, mostraba los escenarios implementados, respondía consultas y validaba junto al cliente que los requerimientos se hubieran cumplido correctamente
+
+        </p>
+
+    </div>
+
+    <!-- TECNOLOGÍAS -->
+
+    <div class="case-block">
+
+        <h3>🛠 Tecnologías y herramientas</h3>
+
+        <div class="tags">
+
+            <span>SAP Hybris</span>
+
+            <span>Playwright</span>
+
+            <span>Jira</span>
+
+            <span>Confluence</span>
+
+            <span>Azure DevOps</span>
+
+            <span>BrowserStack</span>
+
+            <span>Swagger</span>
+
+            <span>Postman</span>
+
+            <span>Jenkins</span>
+
+            <span>Kibana</span>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =====================================================
+     CONTACTO
+===================================================== -->
+
+<section id="contacto" class="contacto">
+
+    <h2>
+
+        ¿Trabajamos juntos?
+
+    </h2>
+
+    <p>
+
+        Si buscás una QA con experiencia en análisis funcional,
+        testing de aplicaciones e-commerce y automatización con
+        Playwright, será un gusto conversar.
+
+    </p>
+
+    <a
+        href="mailto:gisela.cometto@protonmail.com"
+        class="boton">
+
+        Escribime
+
+    </a>
+      <a href="CV/Gisela-Cometto-CV.pdf"
+       target="_blank"
+       rel="noopener"
+       class="cv-link">
+
+        <i class="fa-solid fa-download"></i>
+        Descargar CV
+
+    </a>
+
+</section>
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer class="footer">
+
+    <div class="footer-logo">
+
+        <img src="Imagenes/logo/logo-gc.png" alt="GC QA Logo" title="Every bug is an opportunity to improve quality.">
+
+    </div>
+
+    <h3>Gisela Cometto</h3>
+
+    <p class="footer-role">
+        QA Engineer · Functional Analyst · Automation QA
+    </p>
+
+    
+
+    <div class="footer-social">
+
+        <a href="https://linkedin.com/in/gisela-cometto/"
+           target="_blank"
+           title="LinkedIn">
+
+            <i class="fab fa-linkedin-in"></i>
+
+        </a>
+
+        <a href="https://github.com/comettogisela-qa"
+           target="_blank"
+           title="GitHub">
+
+            <i class="fab fa-github"></i>
+
+        </a>
+
+        <a href="mailto:gisela.cometto@protonmail.com"
+           title="Email">
+
+            <i class="fa-solid fa-envelope"></i>
+
+        </a>
+
+    </div>
+
+    <div class="footer-bottom">
+
+        <a href="#inicio" class="back-top">
+
+            ↑ Volver arriba
+
+        </a>
+        <div class="footer-copy">
+
+        <p>© 2026 Designed, tested and built by Gisela Cometto.</p>
+
+        <small>Built with HTML, CSS and a QA mindset.</small>
+
+    </div>
+
+    
+
+    </div>
+
+</footer>
+<script src="script.js"></script>
 
 </body>
 
